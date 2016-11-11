@@ -18,8 +18,8 @@ module.exports = {
       } else {
         return res.data.main.temp;
       }
-    }, function(err){
-        throw new Error(err.response.data.message);
+    }, function(res){
+        throw new Error(res.data.message);
     });
   }
 }
