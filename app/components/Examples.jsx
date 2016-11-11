@@ -5,6 +5,7 @@ var Examples = (props) => {
     <div>
     <h3>Examples Component</h3>
     <p>Welcome on Examples section!</p>
+    <p>Yop!</p>
     </div>
   );
 };
